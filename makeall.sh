@@ -1,3 +1,4 @@
+#!/bin/bash
 gfortran danger.f90 -o dangerous_fortran
 ./dangerous_fortran
 
