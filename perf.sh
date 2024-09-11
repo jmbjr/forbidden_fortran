@@ -3,7 +3,7 @@
 run_and_time() {
     echo "$1"
     time ./$2
-    sleep(1)
+    sleep 2
 }
 
 # Run and time each program
