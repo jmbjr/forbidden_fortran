@@ -1,5 +1,11 @@
 #!/bin/bash
+echo "DANGEREROUS FORTRAN!"
 time ./dangerous_fortran
-time ./unrestricted_c
+echo "RESTRICTED C!"
 time ./restricted_c
+echo "safer FORTRAN!"
 time ./safer_fortran
+echo "unrestricted c!"
+time ./unrestricted_c
+
+
