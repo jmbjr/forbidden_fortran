@@ -19,5 +19,8 @@ COPY . .
 # Compile C and Fortran programs
 RUN chmod 755 *.sh
 RUN ./makeall.sh
-RUN ./perf.sh
+
+CMD echo "Running Fortran with Dangerous Features:" && \
+    ./perf.sh
+
 
